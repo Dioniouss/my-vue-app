@@ -12,7 +12,7 @@ const routes: RouteRecordRaw[] = [
 
 // Создаем экземпляр роутера
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory('/my-vue-app/'),  // Указываем base путь, который ты использовал в Vite
   routes,
 });
 
