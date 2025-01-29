@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+a {
+  text-decoration: none; /* Убирает подчеркивание */
+  color: inherit; /* Наследует цвет от родителя */
+}
+
+a:focus, a:active {
+  outline: none; /* Убирает контур при фокусе */
+}
